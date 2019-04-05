@@ -2,12 +2,12 @@ import RPi.GPIO as GPIO
 import time,signal,sys
 import httplib,urllib
 
-key = 'XN10U2NOJ1FBVB9J'
+key = ' ' //add your thingspeak API key
 
 from twilio.rest import Client
 
-account_sid = "AC0a77d6e8e603ed363bc5778c5281eec2"
-auth_token = "27fac77505e8067c3a85071dc61a9e08"
+account_sid = " " //add your twilio key
+auth_token = " "  //add your twilio token
 
 
 GPIO.setmode(GPIO.BCM)
@@ -64,7 +64,7 @@ while True :
 
 	client = Client(account_sid,auth_token)
 	message = client.messages.create(
-	to="+919028960981",
+	to="+910000000000", //add your contact no
 	from_="+15126079525",
 	body="Dust-Bin is Approx Full With Garbage .. Please Clean It..!")
 
