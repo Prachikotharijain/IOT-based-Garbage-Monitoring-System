@@ -1,5 +1,5 @@
-# CoderBlog
-IoT based Garbage Monitoring System
+#IoT based Garbage Monitoring System
+
 
 Technology:- IoT, Python as Front-end and Twilio,ThingSpeak as Back-end
 Hardwares:- RaspberryPi,Ultrasonic Sensor,Jumper Wires,Breadboard
